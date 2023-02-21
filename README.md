@@ -1,29 +1,29 @@
-# IMDB_WebScrapping_Using_Python
- 
-web scraping with python
-Introduction:
+# What is web scraping?
 
-Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites using its HTML structure, In this post, I will explain basic fundaments of web scraping using python and also explore it by a live demonstration with two python libraries Beautifulsoup and requests respectively.
 
-What you will learn from this post:
+Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites using its HTML structure, This project talks aboutbasic fundamentals of web scraping using python and also explore it by a live demonstration with two python libraries Beautifulsoup and requests respectively.
 
-basic understanding of web scraping
-how to extract data from a website using classes and HTML tags
-how to use requests module to get data
-how to use Beautifulsoup
-Requirements:
-python3
-requests
-bs4
-Install required dependencies :
-clone or download it from here
-install requirements.txt file
-pip install -r requirements.txt
-How to run this code
-there are two source code files, one is .py extention and another is .ipynb extention
-one can run Scraping with BeautifulSoup.py file in python by run this cammand in terminal "python3 Web Scraping with BeautifulSoup.py"
-one can run Scraping with BeautifulSoup.ipynb file in jupyter notebook /li>
-one can install juypyter notebook by this command "pip3 install jupyter"
-CLI scraping tool is underdevelopment only beta version is available now
-----------------------------------------------------------------------------------------
-HAPPY CODING
+## What all is covered?
+* basic understanding of web scraping
+* how to extract data from a website using classes and HTML tags
+* how to use requests module to get data
+* how to use Beautifulsoup
+* how to manipulate strings
+* how to make csv file out of data gathered
+
+## Requirements:
+* python3
+* requests
+* bs4
+* pandas 
+
+## Overall process
+* Firstly important python packages are imported
+* We are sending GET request to IMDB URL
+* Converting response to SOUP 
+* Creating Lists for output to gather Rank ,Title, Year released, IMDB Ranking, Director, Cast
+* Using find_all for finding relavant tags 
+* Manipulate using string operations and store in corresponding lists
+* Then creating a CSV file to append all data from lists
+
+# HAPPPY CODING
